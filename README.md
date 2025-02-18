@@ -96,6 +96,14 @@ This URL will load the application, and any code changes you make will be reflec
 
 ### Working with Git and GitHub
 
+**Setting Up Git Credentials**
+
+To authenticate Git with GitHub using the GitHub CLI, run the following command:
+```bash
+gh auth login
+```
+Follow the prompts to select GitHub as your host, choose HTTPS authentication, and authenticate using your browser.
+
 **Creating a New Branch for Feature Development**
 
 When working on a new feature, always create a new branch from the main branch:
